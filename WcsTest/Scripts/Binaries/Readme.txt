@@ -1,0 +1,1 @@
+Place 3rd party apps in this directory as defined in the User Guide

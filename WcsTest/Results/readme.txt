@@ -1,0 +1,1 @@
+This directory is the default directory for saving the results of all scripts

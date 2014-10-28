@@ -1,0 +1,82 @@
+REM ================================================================================================================================= 
+REM Copyright © Microsoft Open Technologies, Inc.
+REM All Rights Reserved
+REM Licensed under the Apache License, Version 2.0 (the ""License""); 
+REM you may not use this file except in compliance with the License.
+REM You may obtain a copy of the License at 
+REM http://www.apache.org/licenses/LICENSE-2.0 
+REM 
+REM THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+REM KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR
+REM CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABLITY OR NON-INFRINGEMENT. 
+REM See the Apache 2 License for the specific language governing permissions and limitations under the License. 
+REM ================================================================================================================================= 
+
+REM ================================================================================================================================= 
+REM  This file contains example commands and steps that can be used to create a WinPE image compatible with the OCS Tool Set
+REM
+REM  STEP 1:  Install the Windows ADK (Assessment and Deployment Kit) for Windows 8.1.  This is a free download available from Microsoft
+REM  STEP 2:  Start Deployment and Imaging Tools as an Administrator 
+REM  STEP 3:  Run the following commands
+REM ================================================================================================================================= 
+
+REM ================================================================================================================================= 
+REM NOTE: C:\WinPE_amd64_PS can be replaced with the path of your choice
+REM ================================================================================================================================= 
+copype amd64 C:\WinPE_amd64_PS
+
+Dism /Mount-Image /ImageFile:"C:\WinPE_amd64_PS\media\sources\boot.wim" /Index:1 /MountDir:"C:\WinPE_amd64_PS\mount"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-WMI.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-WMI_en-us.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-NetFX.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-NetFX_en-us.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-Scripting.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-Scripting_en-us.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-PowerShell.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-PowerShell_en-us.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-StorageWMI.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-StorageWMI_en-us.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\WinPE-DismCmdlets.cab"
+
+Dism /Add-Package /Image:"C:\WinPE_amd64_PS\mount" /PackagePath:"C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit\Windows Preinstallation Environment\amd64\WinPE_OCs\en-us\WinPE-DismCmdlets_en-us.cab"
+
+REM ==================================================================================================================================
+REM  Copy WinPEBootloader.ps1, Start-WcsTools.bat and Start-OcsTools.bat to C:\WinPE_amd64_PS\mount\Windows\System32\WindowsPowershell\v1.0
+REM ==================================================================================================================================
+REM  This changes registry to allow execution of PowerShell scripts
+REM 
+REM   Modify the registry C:\WinPE_amd64_PS\mount\Windows\System32\Config\Software
+REM     Start Regedit, select HKEY_LOCAL_MACHINE, load hive.
+REM     Add SOFTWARE\Microsoft\PowerShell\1\ShellIds\ExecutionPolicy  RemoteSigned
+REM     Save hive
+REM ==================================================================================================================================
+REM  This change enables the SAC so can be managed via serial console. Enable ems to allow SAC:
+REM
+REM     bcdedit /store c:\WinPE_amd64_PS\media\boot\bcd /set {default} ems on
+REM ==================================================================================================================================
+
+Dism /Unmount-Image /MountDir:C:\WinPE_amd64_PS\mount /Commit
+
+REM ================================================================================================================================= 
+REM NOTE: E: is the drive letter of the flash drive.  Change this to the drive letter of your flash drive
+REM =================================================================================================================================
+
+MakeWinPEMedia /UFD C:\WinPE_amd64_PS E:
+
+REM ================================================================================================================================= 
+REM Copy the OCS Tool Set directory to the USB flash drive
+REM =================================================================================================================================
+
+Copy \WcsTest\* to E:
+

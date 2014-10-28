@@ -1,0 +1,3 @@
+This file must be placed in the \WcsTest directory of the USB flash drive.  
+
+The OCS Tool Set WinPE image uses this file to identify the logical drive to run the scripts from. 

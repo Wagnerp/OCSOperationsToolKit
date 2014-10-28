@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WcsFruData Version="1.0">
+  <FruSize Value="256" />
+  <ChassisStartOffset Value="8" />
+  <ChassisSerialOffset Value="24" />
+  <ChassisChecksumOffset Value="63" />
+  <BoardStartOffset Value="64" />
+  <BoardMinutesOffset Value="67" />
+  <BoardSerialOffset Value="87" />
+  <BoardChecksumOffset Value="127" />
+  <ProductStartOffset Value="128" />
+  <ProductSerialOffset Value="164" />
+  <ProductAssetOffset Value="178" />
+  <ProductCustom3Offset Value="196" />
+  <ProductChecksumOffset Value="207" />
+  <Offsets>
+    <Offset Value="0" Byte="0x01" Char="" />
+    <Offset Value="1" Byte="0x00" Char="" />
+    <Offset Value="2" Byte="0x01" Char="" />
+    <Offset Value="3" Byte="0x08" Char="" />
+    <Offset Value="4" Byte="0x10" Char="" />
+    <Offset Value="5" Byte="0x00" Char="" />
+    <Offset Value="6" Byte="0x00" Char="" />
+    <Offset Value="7" Byte="0xE6" Char="æ" />
+    <Offset Value="8" Byte="0x01" Char="" />
+    <Offset Value="9" Byte="0x07" Char="" />
+    <Offset Value="10" Byte="0x17" Char="" />
+    <Offset Value="11" Byte="0xCB" Char="Ë" />
+    <Offset Value="12" Byte="0x58" Char="X" />
+    <Offset Value="13" Byte="0x38" Char="8" />
+    <Offset Value="14" Byte="0x37" Char="7" />
+    <Offset Value="15" Byte="0x33" Char="3" />
+    <Offset Value="16" Byte="0x30" Char="0" />
+    <Offset Value="17" Byte="0x32" Char="2" />
+    <Offset Value="18" Byte="0x31" Char="1" />
+    <Offset Value="19" Byte="0x2D" Char="-" />
+    <Offset Value="20" Byte="0x30" Char="0" />
+    <Offset Value="21" Byte="0x30" Char="0" />
+    <Offset Value="22" Byte="0x31" Char="1" />
+    <Offset Value="23" Byte="0xCD" Char="Í" />
+    <Offset Value="24" Byte="0x2E" Char="." />
+    <Offset Value="25" Byte="0x2E" Char="." />
+    <Offset Value="26" Byte="0x2E" Char="." />
+    <Offset Value="27" Byte="0x2E" Char="." />
+    <Offset Value="28" Byte="0x2E" Char="." />
+    <Offset Value="29" Byte="0x2E" Char="." />
+    <Offset Value="30" Byte="0x2E" Char="." />
+    <Offset Value="31" Byte="0x2E" Char="." />
+    <Offset Value="32" Byte="0x2E" Char="." />
+    <Offset Value="33" Byte="0x2E" Char="." />
+    <Offset Value="34" Byte="0x2E" Char="." />
+    <Offset Value="35" Byte="0x2E" Char="." />
+    <Offset Value="36" Byte="0x2E" Char="." />
+    <Offset Value="37" Byte="0xC3" Char="Ã" />
+    <Offset Value="38" Byte="0x32" Char="2" />
+    <Offset Value="39" Byte="0x2E" Char="." />
+    <Offset Value="40" Byte="0x30" Char="0" />
+    <Offset Value="41" Byte="0xD0" Char="Ð" />
+    <Offset Value="42" Byte="0x4E" Char="N" />
+    <Offset Value="43" Byte="0x2F" Char="/" />
+    <Offset Value="44" Byte="0x41" Char="A" />
+    <Offset Value="45" Byte="0x20" Char=" " />
+    <Offset Value="46" Byte="0x20" Char=" " />
+    <Offset Value="47" Byte="0x20" Char=" " />
+    <Offset Value="48" Byte="0x20" Char=" " />
+    <Offset Value="49" Byte="0x20" Char=" " />
+    <Offset Value="50" Byte="0x20" Char=" " />
+    <Offset Value="51" Byte="0x20" Char=" " />
+    <Offset Value="52" Byte="0x20" Char=" " />
+    <Offset Value="53" Byte="0x20" Char=" " />
+    <Offset Value="54" Byte="0x20" Char=" " />
+    <Offset Value="55" Byte="0x20" Char=" " />
+    <Offset Value="56" Byte="0x20" Char=" " />
+    <Offset Value="57" Byte="0x20" Char=" " />
+    <Offset Value="58" Byte="0xC1" Char="Á" />
+    <Offset Value="59" Byte="0x00" Char="" />
+    <Offset Value="60" Byte="0x00" Char="" />
+    <Offset Value="61" Byte="0x00" Char="" />
+    <Offset Value="62" Byte="0x00" Char="" />
+    <Offset Value="63" Byte="0x66" Char="f" />
+    <Offset Value="64" Byte="0x01" Char="" />
+    <Offset Value="65" Byte="0x08" Char="" />
+    <Offset Value="66" Byte="0x19" Char="" />
+    <Offset Value="67" Byte="0x00" Char="" />
+    <Offset Value="68" Byte="0x00" Char="" />
+    <Offset Value="69" Byte="0x00" Char="" />
+    <Offset Value="70" Byte="0xC9" Char="É" />
+    <Offset Value="71" Byte="0x4D" Char="M" />
+    <Offset Value="72" Byte="0x69" Char="i" />
+    <Offset Value="73" Byte="0x63" Char="c" />
+    <Offset Value="74" Byte="0x72" Char="r" />
+    <Offset Value="75" Byte="0x6F" Char="o" />
+    <Offset Value="76" Byte="0x73" Char="s" />
+    <Offset Value="77" Byte="0x6F" Char="o" />
+    <Offset Value="78" Byte="0x66" Char="f" />
+    <Offset Value="79" Byte="0x74" Char="t" />
+    <Offset Value="80" Byte="0xC5" Char="Å" />
+    <Offset Value="81" Byte="0x43" Char="C" />
+    <Offset Value="82" Byte="0x31" Char="1" />
+    <Offset Value="83" Byte="0x30" Char="0" />
+    <Offset Value="84" Byte="0x32" Char="2" />
+    <Offset Value="85" Byte="0x30" Char="0" />
+    <Offset Value="86" Byte="0xCB" Char="Ë" />
+    <Offset Value="87" Byte="0x2E" Char="." />
+    <Offset Value="88" Byte="0x2E" Char="." />
+    <Offset Value="89" Byte="0x2E" Char="." />
+    <Offset Value="90" Byte="0x2E" Char="." />
+    <Offset Value="91" Byte="0x2E" Char="." />
+    <Offset Value="92" Byte="0x2E" Char="." />
+    <Offset Value="93" Byte="0x2E" Char="." />
+    <Offset Value="94" Byte="0x2E" Char="." />
+    <Offset Value="95" Byte="0x2E" Char="." />
+    <Offset Value="96" Byte="0x2E" Char="." />
+    <Offset Value="97" Byte="0x2E" Char="." />
+    <Offset Value="98" Byte="0xCB" Char="Ë" />
+    <Offset Value="99" Byte="0x58" Char="X" />
+    <Offset Value="100" Byte="0x38" Char="8" />
+    <Offset Value="101" Byte="0x37" Char="7" />
+    <Offset Value="102" Byte="0x33" Char="3" />
+    <Offset Value="103" Byte="0x30" Char="0" />
+    <Offset Value="104" Byte="0x39" Char="9" />
+    <Offset Value="105" Byte="0x36" Char="6" />
+    <Offset Value="106" Byte="0x2D" Char="-" />
+    <Offset Value="107" Byte="0x30" Char="0" />
+    <Offset Value="108" Byte="0x30" Char="0" />
+    <Offset Value="109" Byte="0x31" Char="1" />
+    <Offset Value="110" Byte="0xC9" Char="É" />
+    <Offset Value="111" Byte="0x46" Char="F" />
+    <Offset Value="112" Byte="0x52" Char="R" />
+    <Offset Value="113" Byte="0x55" Char="U" />
+    <Offset Value="114" Byte="0x20" Char=" " />
+    <Offset Value="115" Byte="0x76" Char="v" />
+    <Offset Value="116" Byte="0x30" Char="0" />
+    <Offset Value="117" Byte="0x2E" Char="." />
+    <Offset Value="118" Byte="0x30" Char="0" />
+    <Offset Value="119" Byte="0x33" Char="3" />
+    <Offset Value="120" Byte="0xC1" Char="Á" />
+    <Offset Value="121" Byte="0x00" Char="" />
+    <Offset Value="122" Byte="0x00" Char="" />
+    <Offset Value="123" Byte="0x00" Char="" />
+    <Offset Value="124" Byte="0x00" Char="" />
+    <Offset Value="125" Byte="0x00" Char="" />
+    <Offset Value="126" Byte="0x00" Char="" />
+    <Offset Value="127" Byte="0xDF" Char="ß" />
+    <Offset Value="128" Byte="0x01" Char="" />
+    <Offset Value="129" Byte="0x0A" Char="" />
+    <Offset Value="130" Byte="0x19" Char="" />
+    <Offset Value="131" Byte="0xC9" Char="É" />
+    <Offset Value="132" Byte="0x4D" Char="M" />
+    <Offset Value="133" Byte="0x69" Char="i" />
+    <Offset Value="134" Byte="0x63" Char="c" />
+    <Offset Value="135" Byte="0x72" Char="r" />
+    <Offset Value="136" Byte="0x6F" Char="o" />
+    <Offset Value="137" Byte="0x73" Char="s" />
+    <Offset Value="138" Byte="0x6F" Char="o" />
+    <Offset Value="139" Byte="0x66" Char="f" />
+    <Offset Value="140" Byte="0x74" Char="t" />
+    <Offset Value="141" Byte="0xC5" Char="Å" />
+    <Offset Value="142" Byte="0x43" Char="C" />
+    <Offset Value="143" Byte="0x31" Char="1" />
+    <Offset Value="144" Byte="0x30" Char="0" />
+    <Offset Value="145" Byte="0x32" Char="2" />
+    <Offset Value="146" Byte="0x30" Char="0" />
+    <Offset Value="147" Byte="0xCB" Char="Ë" />
+    <Offset Value="148" Byte="0x58" Char="X" />
+    <Offset Value="149" Byte="0x38" Char="8" />
+    <Offset Value="150" Byte="0x37" Char="7" />
+    <Offset Value="151" Byte="0x33" Char="3" />
+    <Offset Value="152" Byte="0x30" Char="0" />
+    <Offset Value="153" Byte="0x39" Char="9" />
+    <Offset Value="154" Byte="0x35" Char="5" />
+    <Offset Value="155" Byte="0x2D" Char="-" />
+    <Offset Value="156" Byte="0x30" Char="0" />
+    <Offset Value="157" Byte="0x30" Char="0" />
+    <Offset Value="158" Byte="0x31" Char="1" />
+    <Offset Value="159" Byte="0xC3" Char="Ã" />
+    <Offset Value="160" Byte="0x31" Char="1" />
+    <Offset Value="161" Byte="0x2E" Char="." />
+    <Offset Value="162" Byte="0x30" Char="0" />
+    <Offset Value="163" Byte="0xCD" Char="Í" />
+    <Offset Value="164" Byte="0x2E" Char="." />
+    <Offset Value="165" Byte="0x2E" Char="." />
+    <Offset Value="166" Byte="0x2E" Char="." />
+    <Offset Value="167" Byte="0x2E" Char="." />
+    <Offset Value="168" Byte="0x2E" Char="." />
+    <Offset Value="169" Byte="0x2E" Char="." />
+    <Offset Value="170" Byte="0x2E" Char="." />
+    <Offset Value="171" Byte="0x2E" Char="." />
+    <Offset Value="172" Byte="0x2E" Char="." />
+    <Offset Value="173" Byte="0x2E" Char="." />
+    <Offset Value="174" Byte="0x2E" Char="." />
+    <Offset Value="175" Byte="0x2E" Char="." />
+    <Offset Value="176" Byte="0x2E" Char="." />
+    <Offset Value="177" Byte="0xC7" Char="Ç" />
+    <Offset Value="178" Byte="0x2E" Char="." />
+    <Offset Value="179" Byte="0x2E" Char="." />
+    <Offset Value="180" Byte="0x2E" Char="." />
+    <Offset Value="181" Byte="0x2E" Char="." />
+    <Offset Value="182" Byte="0x2E" Char="." />
+    <Offset Value="183" Byte="0x2E" Char="." />
+    <Offset Value="184" Byte="0x2E" Char="." />
+    <Offset Value="185" Byte="0xC1" Char="Á" />
+    <Offset Value="186" Byte="0x30" Char="0" />
+    <Offset Value="187" Byte="0xC3" Char="Ã" />
+    <Offset Value="188" Byte="0x4E" Char="N" />
+    <Offset Value="189" Byte="0x2F" Char="/" />
+    <Offset Value="190" Byte="0x41" Char="A" />
+    <Offset Value="191" Byte="0xC3" Char="Ã" />
+    <Offset Value="192" Byte="0x4E" Char="N" />
+    <Offset Value="193" Byte="0x2F" Char="/" />
+    <Offset Value="194" Byte="0x41" Char="A" />
+    <Offset Value="195" Byte="0xC3" Char="Ã" />
+    <Offset Value="196" Byte="0x2E" Char="." />
+    <Offset Value="197" Byte="0x2E" Char="." />
+    <Offset Value="198" Byte="0x2E" Char="." />
+    <Offset Value="199" Byte="0xC1" Char="Á" />
+    <Offset Value="200" Byte="0x00" Char="" />
+    <Offset Value="201" Byte="0x00" Char="" />
+    <Offset Value="202" Byte="0x00" Char="" />
+    <Offset Value="203" Byte="0x00" Char="" />
+    <Offset Value="204" Byte="0x00" Char="" />
+    <Offset Value="205" Byte="0x00" Char="" />
+    <Offset Value="206" Byte="0x00" Char="" />
+    <Offset Value="207" Byte="0xF2" Char="ò" />
+    <Offset Value="208" Byte="0x00" Char="" />
+    <Offset Value="209" Byte="0x00" Char="" />
+    <Offset Value="210" Byte="0x00" Char="" />
+    <Offset Value="211" Byte="0x00" Char="" />
+    <Offset Value="212" Byte="0x00" Char="" />
+    <Offset Value="213" Byte="0x00" Char="" />
+    <Offset Value="214" Byte="0x00" Char="" />
+    <Offset Value="215" Byte="0x00" Char="" />
+    <Offset Value="216" Byte="0x00" Char="" />
+    <Offset Value="217" Byte="0x00" Char="" />
+    <Offset Value="218" Byte="0x00" Char="" />
+    <Offset Value="219" Byte="0x00" Char="" />
+    <Offset Value="220" Byte="0x00" Char="" />
+    <Offset Value="221" Byte="0x00" Char="" />
+    <Offset Value="222" Byte="0x00" Char="" />
+    <Offset Value="223" Byte="0x00" Char="" />
+    <Offset Value="224" Byte="0x00" Char="" />
+    <Offset Value="225" Byte="0x00" Char="" />
+    <Offset Value="226" Byte="0x00" Char="" />
+    <Offset Value="227" Byte="0x00" Char="" />
+    <Offset Value="228" Byte="0x00" Char="" />
+    <Offset Value="229" Byte="0x00" Char="" />
+    <Offset Value="230" Byte="0x00" Char="" />
+    <Offset Value="231" Byte="0x00" Char="" />
+    <Offset Value="232" Byte="0x00" Char="" />
+    <Offset Value="233" Byte="0x00" Char="" />
+    <Offset Value="234" Byte="0x00" Char="" />
+    <Offset Value="235" Byte="0x00" Char="" />
+    <Offset Value="236" Byte="0x00" Char="" />
+    <Offset Value="237" Byte="0x00" Char="" />
+    <Offset Value="238" Byte="0x00" Char="" />
+    <Offset Value="239" Byte="0x00" Char="" />
+    <Offset Value="240" Byte="0x00" Char="" />
+    <Offset Value="241" Byte="0x00" Char="" />
+    <Offset Value="242" Byte="0x00" Char="" />
+    <Offset Value="243" Byte="0x00" Char="" />
+    <Offset Value="244" Byte="0x00" Char="" />
+    <Offset Value="245" Byte="0x00" Char="" />
+    <Offset Value="246" Byte="0x00" Char="" />
+    <Offset Value="247" Byte="0x00" Char="" />
+    <Offset Value="248" Byte="0x00" Char="" />
+    <Offset Value="249" Byte="0x00" Char="" />
+    <Offset Value="250" Byte="0x00" Char="" />
+    <Offset Value="251" Byte="0x00" Char="" />
+    <Offset Value="252" Byte="0x00" Char="" />
+    <Offset Value="253" Byte="0x00" Char="" />
+    <Offset Value="254" Byte="0x00" Char="" />
+    <Offset Value="255" Byte="0x00" Char="" />
+  </Offsets>
+</WcsFruData>
