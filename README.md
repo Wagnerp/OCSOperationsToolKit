@@ -35,7 +35,7 @@ The intent of this community project is to collaborate with Open Compute Project
 
 If your intent is to use the Operations Toolkit software without contributing back to this project, then use the MASTER branch which holds the approved and stable public releases. 
 
-If your goal is to improve or extend the code and contribute back to this project, then you should make your changes in, and submit a pull request against, the DEVELOPMENT branch. Read through our wiki section on how to contribute for a walk-through of the contribution process. 
+If your goal is to improve or extend the code and contribute back to this project, then you should make your changes in, and submit a pull request against, the DEVELOPMENT branch. Read through our wiki section on [how to contribute] (https://github.com/MSOpenTech/ChassisManager/wiki/how-to-contribute) for a walk-through of the contribution process.
 
 All new work should be in the development branch. Master is now reserved to tag builds 
 
