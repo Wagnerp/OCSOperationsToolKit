@@ -57,16 +57,21 @@ Additional helpful information can be found in OCSToolsUserGuide.PDF
 
 -PowerShell ExecutionPolicy must allow script execution 
 
-	The Toolkit requires the PowerShell execution policy be set to allow the running of scripts.  One possible way to enable script execution is to run this command: 
-	PowerShell -Command Set-ExecutionPolicy RemoteSigned -Force 
+The Toolkit requires the PowerShell execution policy be set to allow the running of scripts.  
+
+One possible way to enable script execution is to run this command: 
+
+PowerShell -Command Set-ExecutionPolicy RemoteSigned -Force 
 
 -Run As Administrator 
 
-	Many of the commands must be run as administrator because they read low level hardware information.  If commands are not run as an administrator they may return 		incomplete or incorrect information. 
-	Note that starting the Toolkit using the desktop shortcut automatically runs the Toolkit as administrator.  
+Many of the commands must be run as administrator because they read low level hardware information.  If commands are not run as an administrator they may return 	incomplete or incorrect information. 
+
+Note that starting the Toolkit using the desktop shortcut automatically runs the Toolkit as administrator.  
 
 -PowerShell Version 3.0 or later 
-	The Toolkit requires PowerShell version 3.0 or later.  Windows Server 2012 and WinPE 5.1 (or later) include a PowerShell version that meets this requirement.  Older 	versions of Windows (ie: XP) would require installing version 3.0 of PowerShell separately.  
+
+The Toolkit requires PowerShell version 3.0 or later.  Windows Server 2012 and WinPE 5.1 (or later) include a PowerShell version that meets this requirement.  Older 	versions of Windows (ie: XP) would require installing version 3.0 of PowerShell separately.  
 
 
 ## Test Instructions
