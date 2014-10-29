@@ -29,7 +29,7 @@ The Open CloudServer (OCS) Operations Toolkit is a collection of scripts and uti
 
 	o Debug functions to execute IPMI and REST commands  
 
-The Toolkit runs on 64 bit versions of WinPE version 5.1 or later, Windows Server 2012 or later, and Windows 8.1 or later.   The Toolkit can be deployed on bootable WinPE USB flash drives, WinPE RAM drives (from PXE Server), and drives with the Windows Server and Desktop Operating Systems.
+The Toolkit runs on 64 bit versions of WinPE version 5.1 or later, Windows Server 2012 or later, and Windows 8.1 or later. The Toolkit can be deployed on bootable WinPE USB flash drives, WinPE RAM drives (from PXE Server), and drives with the Windows Server and Desktop Operating Systems.
 
 The intent of this community project is to collaborate with Open Compute Project Foundation (OCP) to build a thriving ecosystem of OSS within OCP and contribute this project to OCP. 
 
@@ -57,21 +57,21 @@ Additional helpful information can be found in OCSToolsUserGuide.PDF
 
 -PowerShell ExecutionPolicy must allow script execution 
 
-The Toolkit requires the PowerShell execution policy be set to allow the running of scripts.  
+	o The Toolkit requires the PowerShell execution policy be set to allow the running of scripts.  
 
-One possible way to enable script execution is to run this command: 
+	o One possible way to enable script execution is to run this command: 
 
-PowerShell -Command Set-ExecutionPolicy RemoteSigned -Force 
+	o PowerShell -Command Set-ExecutionPolicy RemoteSigned -Force 
 
 -Run As Administrator 
 
-Many of the commands must be run as administrator because they read low level hardware information.  If commands are not run as an administrator they may return 	incomplete or incorrect information. 
+	o Many of the commands must be run as administrator because they read low level hardware information.  If commands are not run as an administrator they may return incomplete or incorrect information. 
 
-Note that starting the Toolkit using the desktop shortcut automatically runs the Toolkit as administrator.  
+	o Note that starting the Toolkit using the desktop shortcut automatically runs the Toolkit as administrator.  
 
 -PowerShell Version 3.0 or later 
 
-The Toolkit requires PowerShell version 3.0 or later.  Windows Server 2012 and WinPE 5.1 (or later) include a PowerShell version that meets this requirement.  Older 	versions of Windows (ie: XP) would require installing version 3.0 of PowerShell separately.  
+	o The Toolkit requires PowerShell version 3.0 or later.  Windows Server 2012 and WinPE 5.1 (or later) include a PowerShell version that meets this requirement.  Older versions of Windows (ie: XP) would require installing version 3.0 of PowerShell separately.  
 
 
 ## Test Instructions
