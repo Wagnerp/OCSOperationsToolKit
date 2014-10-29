@@ -22,6 +22,15 @@ The Open CloudServer (OCS) Operations Toolkit is a collection of scripts and uti
 
 The Toolkit runs on 64 bit versions of WinPE version 5.1 or later, Windows Server 2012 or later, and Windows 8.1 or later.   The Toolkit can be deployed on bootable WinPE USB flash drives, WinPE RAM drives (from PXE Server), and drives with the Windows Server and Desktop Operating Systems.
 
+The intent of this community project is to collaborate with Open Compute Project Foundation (OCP) to build a thriving ecosystem of OSS within OCP and contribute this project to OCP. 
+
+If your intent is to use the Operations Toolkit software without contributing back to this project, then use the MASTER branch which holds the approved and stable public releases. 
+
+If your goal is to improve or extend the code and contribute back to this project, then you should make your changes in, and submit a pull request against, the DEVELOPMENT branch. Read through our wiki section on how to contribute for a walk-through of the contribution process. 
+
+All new work should be in the development branch. Master is now reserved to tag builds 
+
+
 ## Quick Start
 
 - Clone the repo: git clone https://github.com/MSOpenTech/OCSOperationsToolKit.git
