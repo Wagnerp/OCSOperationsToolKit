@@ -33,6 +33,7 @@ Additional helpful information can be found in OCSToolsUserGuide.PDF
 
 ## Components Included 
 
+-Collection of scripts and utilities for updating, diagnosing, and testing OCS servers and chassis managers. 
 
 ## Prerequisites
 
